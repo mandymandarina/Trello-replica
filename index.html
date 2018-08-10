@@ -17,7 +17,16 @@
 </head>
 <body>
   <header class="menuTrello" id="menuTrello">
-      <button onclick="myFunction()" class="dropbtn"><i class="fab fa-trello"></i> Tableros</button>
+    <nav>
+      <button onclick="myFunction()" class="btnTab"><span class="tabIconTex"><i class="fab fa-trello"></i> Tableros</span></button>
+      <input class="inputSearch" id="inputSerch">
+      <div class="icons">
+          <button class="iconPlus"><i class="fas fa-plus"></i></button>
+          <button class="iconIi"><i class="fas fa-info-circle"></i></button>
+          <button class="iconBell"><i class="far fa-bell"></i></button>
+          <button class="iconPerfil"><i class="far fa-user-circle"></i></button>
+        </div>
+        </nav>
   <div id="myDropdown" class="dropdown-content">
     <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
     <a href="#about">About</a>
@@ -28,7 +37,8 @@
     <a href="#support">Support</a>
     <a href="#tools">Tools</a>
   </div>
-    
+  <img src="assets/img/trello-logo-white-1024x315.png" class=" mx-auto d-block" alt="logo">
+  
   </header>
   <!-- vinculo jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
