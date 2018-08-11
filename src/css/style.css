@@ -22,7 +22,7 @@ body {
 }
 
 .btnTab {
-  background-color: rgba(255, 255, 255, 0.356);
+  background-color: rgba(255, 255, 255, 0.205);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   border: none;
@@ -74,20 +74,20 @@ body {
 .show {display: block;}
 
 .inputSearch {
-  background-color:  rgba(255, 255, 255, 0.356);
+  background-color:  rgba(255, 255, 255, 0.205);
   border: none;
   border-radius: 4%;
   cursor: pointer;
 }
 
 .inputSearch:hover, .inputSearch:focus {
-  background-color: rgba(255, 255, 255, 0.521);
+  background-color: rgba(255, 255, 255, 0.363);
 }
 
 img {
   width: 6%;
   margin-top: -4vh;
-  color: rgba(255, 255, 255, 0.493);
+  color: rgba(255, 255, 255, 0.205);
   cursor: pointer;
 }
 .img:hover, .img:focus {
@@ -97,4 +97,35 @@ img {
 .icons {
   display: inline;
   margin-left: 69%;
+}
+
+.iconPlus{
+  background-color:  rgba(255, 255, 255, 0.205);
+  color: white;
+  border: none;
+  border-radius: 4%;  
+}
+.iconPlus:hover, .iconPlus:focus {
+  background-color: rgba(255, 255, 255, 0.123);
+}
+.iconIi{
+  background-color:  rgba(255, 255, 255, 0.205);
+  color: white;
+  border: none;
+  border-radius: 4%;
+}
+.iconIi:hover, .iconIi:focus {
+  background-color: rgba(255, 255, 255, 0.123);
+}
+.iconBell{
+  background-color: #eb5a46;
+  border: none;
+  color: white;
+  border-radius: 4%;
+}
+.iconBell:hover, .iconBell:focus {
+  background-color: #eb5946c5;
+}
+.iconPerfil{
+border-radius:50%;
 }
