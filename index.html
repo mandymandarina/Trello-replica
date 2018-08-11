@@ -20,6 +20,10 @@
     <nav>
       <button onclick="myFunction()" class="btnTab"><span class="tabIconTex"><i class="fab fa-trello"></i> Tableros</span></button>
       <input class="inputSearch" id="inputSerch">
+           <!--  
+          <span class=" input-group-append search">
+          <i class="fas fa-search"></i>  -->     
+          <i class="fas fa-search"></i>
       <div class="icons">
           <button class="iconPlus"><i class="fas fa-plus"></i></button>
           <button class="iconIi"><i class="fas fa-info-circle"></i></button>
@@ -28,18 +32,23 @@
         </div>
         </nav>
   <div id="myDropdown" class="dropdown-content">
-    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-    <a href="#about">About</a>
-    <a href="#base">Base</a>
-    <a href="#blog">Blog</a>
-    <a href="#contact">Contact</a>
-    <a href="#custom">Custom</a>
-    <a href="#support">Support</a>
-    <a href="#tools">Tools</a>
+    <input type="text" placeholder="Buscar tableros por nombre" id="myInput" onkeyup="filterFunction()">
+    <a href="#about"><i class="far fa-star"></i> TABLEROS MARCADOS</a>
+    <a href="#base"><i class="far fa-clock"></i> TABLEROS RECIENTES</a>
+    <a href="#blog"><i class="fab fa-trello"></i> TABLEROS PERSONALES</a>
+    <a href="#tools"><i class="fas fa-user-friends"></i> Añadir al equipo</a>
+    <a href="#contact">Crear un tablero nuevo</a>
+    <a href="#custom">Mantener este menu siempre abierto</a>
+    <a href="#support">Ver tableros cerrados</a>    
   </div>
   <img src="assets/img/trello-logo-white-1024x315.png" class=" mx-auto d-block" alt="logo">
   
   </header>
+  <!-- segunda seccion de botones -->
+  <section class="secondDiv">
+  <button class="btnNameProy"><p>Nombre Proyecto</p></button>
+  <button class="btnStar"><i class="far fa-star"></i></button>
+  </section>
   <!-- vinculo jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

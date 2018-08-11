@@ -78,6 +78,17 @@ body {
   border: none;
   border-radius: 4%;
   cursor: pointer;
+  width: -20vh;
+}
+.search{
+  background-color:  rgba(255, 255, 255, 0.205);
+  color:  white;
+  border: none;
+  border-radius: 4%;  
+  cursor: pointer;  
+  padding: .375rem .75rem; 
+  text-align: center;
+  width: 5vh;  
 }
 
 .inputSearch:hover, .inputSearch:focus {
@@ -96,7 +107,7 @@ img {
 
 .icons {
   display: inline;
-  margin-left: 69%;
+  margin-left: 68%;
 }
 
 .iconPlus{
@@ -128,4 +139,34 @@ img {
 }
 .iconPerfil{
 border-radius:50%;
+background: url(../../assets/img/27573911_151397805572760_1507964104252325888_n.jpg);
+border: none;
+}
+.searchInput{
+  border-color: cadetblue;
+  text-align: left;
+}
+
+/* segunda seccion */
+.btnNameProy{
+  background-color: transparent;
+  color: white;
+  font-family:  Helvetica, sans-serif;
+  border: none;
+  margin: 1vh;
+  border-radius: 4%;
+  font-weight: 900;
+  font-size: 19px; 
+}
+.btnNameProy:hover, .btnNameProy:focus {
+  background-color: rgba(0, 0, 0, 0.336);
+}
+.btnStar{
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 4%;  
+}
+.btnStar:hover, .btnStar:focus {
+  background-color: rgba(0, 0, 0, 0.336);
 }
