@@ -13,3 +13,7 @@ window.filterFunction = () => {
       }
   }
 }
+
+window.inputVacio = () => {
+    
+}
