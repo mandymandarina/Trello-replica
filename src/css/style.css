@@ -170,3 +170,24 @@ border: none;
 .btnStar:hover, .btnStar:focus {
   background-color: rgba(0, 0, 0, 0.336);
 }
+.btnPer{
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 4%;
+}
+.btnPer:hover, .btnPer:focus {
+  background-color: rgba(0, 0, 0, 0.336);
+}
+
+.btnPrivate {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 4%;
+  height: 30px;
+}
+.btnPrivate:hover, .btnPrivate:focus {
+  background-color: rgba(0, 0, 0, 0.336);
+}
+/* Tablero */
