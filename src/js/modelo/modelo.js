@@ -15,5 +15,13 @@ window.filterFunction = () => {
 }
 
 window.inputVacio = () => {
-    
-}
+    valAdd = '';
+    if(valAdd){
+      alert('Debe ingresar un texto');
+      return true;
+      console.log('hola no');
+    } else {
+      return false;
+      console.log('hola si');
+    }
+};
