@@ -190,4 +190,32 @@ border: none;
 .btnPrivate:hover, .btnPrivate:focus {
   background-color: rgba(0, 0, 0, 0.336);
 }
+.btnAdd{
+  background-color: rgba(255, 255, 255, 0.486);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px; 
+  font-size: 8px;
+  text-align: center;   
+}
+.btnAdd:hover, .btnAdd:focus {
+  background-color:rgba(255, 255, 255, 0.212);
+}
+.btnMostrarMenu {  
+  margin: 10px;
+  margin-top: 8px ! important;
+  background-color:transparent;
+  color: white;
+  cursor: pointer;
+  float: right;  
+  font-size: 14px!important;
+  border: 0;
+  height: 30px;
+  font-weight: 300;
+}
+.btnMostrarMenu:hover, .btnMostrarMenu:focus {
+  background-color:rgba(0, 0, 0, 0.336);
+}
 /* Tablero */
