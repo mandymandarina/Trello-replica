@@ -9,4 +9,13 @@ describe('Validar funcion', () => {
   });
        
 
-  
+  describe('validar input crear tarjeta', () => {
+    describe('el input no debe estar vacio', () => {
+      it('input no debe estar vacio', () => {
+        assert.equal()
+      })
+      it('desabiliatr boton campo vacio', () => {
+        
+      })
+    })
+  })
