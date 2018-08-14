@@ -20,7 +20,13 @@ body {
   margin: 5px;
   width: 9%;  
 }
-
+.btnSearch{
+  border: none;
+  background-color: rgba(255, 255, 255, 0.199);
+  color: white;
+  border-radius: 4%;
+  margin: 0px;
+}
 .btnTab {
   background-color: rgba(255, 255, 255, 0.205);
   color: white;
@@ -34,8 +40,7 @@ body {
   background-color: rgba(255, 255, 255, 0.123);
 }
 
-#myInput {
-  border-box: box-sizing;
+#myInput {  
   background-image: url('searchicon.png');
   background-position: 14px 12px;
   background-repeat: no-repeat;
@@ -79,6 +84,7 @@ body {
   border-radius: 4%;
   cursor: pointer;
   width: -20vh;
+  margin: none;
 }
 .search{
   background-color:  rgba(255, 255, 255, 0.205);
@@ -169,7 +175,8 @@ imgTrello {
 }
 .ProName{
   font-weight: 200;
-  font-size: 10px;
+  font-size: 16px;
+  font-weight: 700;
 }
 .btnStar{
   background-color: transparent;
@@ -271,7 +278,7 @@ imgTrello {
   margin: 0;
   transition: margin 85ms ease-in,background 85ms ease-in;
   width: 100%;
-  border-radius: 4.5%;  
+  border-radius: 4.5%;    
 }
 .mod-add{
  margin: 7px;
@@ -311,6 +318,7 @@ p {
   border-radius: 4%;
   margin: 7px;
   display: none;
+  height: 70px;
 }
 .btnDots{
   border-radius: 3%;
@@ -320,8 +328,49 @@ p {
 .btnDots:hover, .btnDots:focus {
   background-color:#bfc7ca;
 }
+.subContText{
+font-weight: 600;
+}
 .subContAdd:hover, .subContAdd:focus {
   background-color:#bfc7ca;  
 }
+#otherAdd{
+  display: inline-block;
+}
+#sectionAddTarMae{
+  width: 100%;
+}
 
-@media (max-width:)
+@media (max-width: 700px){
+ .btnTab{   
+   width: 25px;
+   height: 25px;
+ }
+ .tabText{
+   display: none;
+ }
+ .inputSearch{
+   display: none;
+ }
+ .imgTrello{   
+   width: 60px;   
+ }
+ .icons{
+   margin-left: 26vh;
+ }
+ .btnNameProy{
+   display: block;   
+ }
+ .proName{
+  margin-bottom: -1vh ! important;
+ }
+ .btnStar{
+   display: inline;
+ }
+ .btnPer{
+   display: inline;   
+ }
+ .btnDesa{
+   width: 20vh;
+ }
+};
