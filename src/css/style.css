@@ -376,5 +376,10 @@ font-weight: 600;
  .divWe{
    width: 27vh;
  }
- 
+ .contenerdorDivsAdd{
+   width: 25vh;
+ }
+ .btnDots{
+   margin-left: -10vh;
+ }
 };
