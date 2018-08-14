@@ -240,6 +240,30 @@ imgTrello {
   text-decoration: underline;  
 }
 /* Tablero */
+
+.addRow{
+  cursor: pointer;
+  width: 20%;
+  border-radius: 5%;
+  margin: 5px ! important;
+  height: 20%;  
+}
+
+.btnDesa{
+  border: none;
+  border-radius: 5%;
+  width: 100%;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+  height: 50px; 
+}
+.btnDesa:hover, .btnDesa:focus {
+  background-color:rgba(0, 0, 0, 0.336);
+}
+#sectionAddTar{
+  display: none;
+}
 .list-wrapper.mod-add .list-name-input {
   background: #fff;
   border-color: #298fca;
@@ -299,3 +323,5 @@ p {
 .subContAdd:hover, .subContAdd:focus {
   background-color:#bfc7ca;  
 }
+
+@media (max-width:)

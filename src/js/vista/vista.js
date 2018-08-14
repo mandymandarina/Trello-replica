@@ -2,7 +2,18 @@ function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// imprimir la tarjetaaddListaTar
+// que desaparezca añadis texto
+const btnAddComent = document.getElementById('btnAddComent');
+const divAddComent = document.getElementById('rowAddComent');
+const sectionComent = document.getElementById('sectionAddTar');
+
+btnAddComent.addEventListener('click', ()=>{
+  divAddComent.style.display ='none';
+  sectionComent.style.display = 'block';
+})
+
+
+// imprimir la tarjeta addListaTar
 let btnAddListaTar = document.getElementById('addListaTar');
 const contAddTar = document.getElementById('sectionAddTar');
 const contPrint = document.getElementById('dorDivsAdd');
@@ -21,6 +32,8 @@ btnAddListaTar.addEventListener('click', () =>{
     return true
   }  
 });
+
+
 
 
 
